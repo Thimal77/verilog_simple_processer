@@ -1,2 +1,2 @@
 # verilog_simple_processer
-Make a simple processer using verilog
+This is a simple processer implemented by using verilog
