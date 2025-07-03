@@ -1,0 +1,87 @@
+$date
+	Wed May 21 10:43:25 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module my_alu $end
+$var wire 8 ! DATA1 [7:0] $end
+$var wire 8 " DATA2 [7:0] $end
+$var wire 3 # SELECT [2:0] $end
+$var wire 8 $ orOut [7:0] $end
+$var wire 8 % forwardOut [7:0] $end
+$var wire 8 & andOut [7:0] $end
+$var wire 8 ' addOut [7:0] $end
+$var reg 8 ( RESULT [7:0] $end
+$scope module addUnit $end
+$var wire 8 ) DATA1 [7:0] $end
+$var wire 8 * DATA2 [7:0] $end
+$var wire 8 + RESULT [7:0] $end
+$upscope $end
+$scope module andUnit $end
+$var wire 8 , DATA1 [7:0] $end
+$var wire 8 - DATA2 [7:0] $end
+$var wire 8 . RESULT [7:0] $end
+$upscope $end
+$scope module forwardUnit $end
+$var wire 8 / DATA [7:0] $end
+$var wire 8 0 RESULT [7:0] $end
+$upscope $end
+$scope module orUnit $end
+$var wire 8 1 DATA1 [7:0] $end
+$var wire 8 2 DATA2 [7:0] $end
+$var wire 8 3 RESULT [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 3
+b111 2
+b101 1
+bx 0
+b111 /
+bx .
+b111 -
+b101 ,
+bx +
+b111 *
+b101 )
+bx (
+bx '
+bx &
+bx %
+bx $
+b0 #
+b111 "
+b101 !
+$end
+#1
+b111 (
+b111 $
+b111 3
+b101 &
+b101 .
+b111 %
+b111 0
+#2
+b1100 '
+b1100 +
+#5
+b1100 (
+b1 #
+#10
+b101 (
+b10 #
+#15
+b111 (
+b11 #
+#50
